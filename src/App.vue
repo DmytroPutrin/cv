@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import AppAbout from './components/AppAbout.vue'
+import AppExperience from './components/AppExperience.vue'
 import AppFooter from './components/AppFooter.vue'
 import AppHeader from './components/AppHeader.vue'
 </script>
@@ -8,6 +9,7 @@ import AppHeader from './components/AppHeader.vue'
   <AppHeader />
   <main class="app-main">
     <AppAbout />
+    <AppExperience />
   </main>
   <AppFooter />
 </template>

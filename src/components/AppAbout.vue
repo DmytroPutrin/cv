@@ -22,7 +22,7 @@ import avatarUrl from '../assets/avatar.jpg'
 .app-about {
   max-width: 800px;
   margin: 0 auto;
-  padding: 48px 16px;
+  padding: 32px 16px;
 }
 
 .app-about__intro {
