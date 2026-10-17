@@ -7,6 +7,10 @@ function downloadCv() {
   link.download = 'dmytro_putrin_cv.pdf'
   link.click()
 }
+
+function scrollToContacts() {
+  document.getElementById('contacts')?.scrollIntoView({ behavior: 'smooth' })
+}
 </script>
 
 <template>
@@ -18,7 +22,7 @@ function downloadCv() {
 
       <div class="app-header__actions">
         <q-btn outline no-caps color="primary" icon="download" label="Download CV" @click="downloadCv" />
-        <q-btn unelevated no-caps color="primary" icon="mail" label="Contact Me" />
+        <q-btn unelevated no-caps color="primary" icon="mail" label="Contacts info" @click="scrollToContacts" />
       </div>
     </q-toolbar>
   </header>

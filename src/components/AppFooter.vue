@@ -9,7 +9,7 @@ const links = [
 </script>
 
 <template>
-  <footer class="app-footer">
+  <footer id="contacts" class="app-footer">
     <h2 class="app-footer__title">Let's connect</h2>
     <p class="app-footer__subtitle">Get in touch for opportunities or just to say hi! 👋</p>
 
