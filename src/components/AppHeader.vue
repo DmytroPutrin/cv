@@ -16,7 +16,7 @@ function scrollToContacts() {
 <template>
   <header class="app-header">
     <q-toolbar class="app-header__toolbar">
-      <q-toolbar-title class="app-header__name">
+      <q-toolbar-title class="app-header__name gt-xs">
         Dmytro Putrin
       </q-toolbar-title>
 
