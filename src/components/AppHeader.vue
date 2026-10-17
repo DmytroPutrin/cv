@@ -1,4 +1,12 @@
 <script setup lang="ts">
+import cvUrl from '../assets/dmytro_putrin_cv.pdf?url'
+
+function downloadCv() {
+  const link = document.createElement('a')
+  link.href = cvUrl
+  link.download = 'dmytro_putrin_cv.pdf'
+  link.click()
+}
 </script>
 
 <template>
@@ -9,7 +17,7 @@
       </q-toolbar-title>
 
       <div class="app-header__actions">
-        <q-btn outline no-caps color="primary" icon="download" label="Download CV" />
+        <q-btn outline no-caps color="primary" icon="download" label="Download CV" @click="downloadCv" />
         <q-btn unelevated no-caps color="primary" icon="mail" label="Contact Me" />
       </div>
     </q-toolbar>
