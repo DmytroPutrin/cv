@@ -30,7 +30,8 @@ function scrollToContacts() {
 
 <style scoped>
 .app-header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--color-header-bg);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .app-header__toolbar {

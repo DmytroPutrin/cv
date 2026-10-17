@@ -1,3 +1,10 @@
+:root {
+  --color-header-bg: #f1f5f9;
+  --color-main-bg: #f8fafc;
+  --color-footer-bg: #e2e8f0;
+  --color-border: #e2e8f0;
+}
+
 #app {
   display: flex;
   flex-direction: column;

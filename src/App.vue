@@ -17,5 +17,6 @@ import AppHeader from './components/AppHeader.vue'
 <style scoped>
 .app-main {
   flex: 1;
+  background: var(--color-main-bg);
 }
 </style>

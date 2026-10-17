@@ -35,7 +35,8 @@ const links = [
 .app-footer {
   margin-top: auto;
   padding: 32px 16px;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--color-footer-bg);
+  border-top: 1px solid var(--color-border);
   text-align: center;
 }
 
